@@ -1,6 +1,11 @@
 #include <iostream>
 
 using namespace std;
+/*
+Write a program to add two numbers and
+call functions internally (main() ->
+pass arguments int a,b -> printAnswer(a,b)->add(a,b)
+*/
 
 int add(int a, int b){
     return (a + b);
