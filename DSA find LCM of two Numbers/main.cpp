@@ -30,6 +30,7 @@ int lcm(int a, int b){
 }
 int main()
 {
+    // find the lcm of two numbers
     int a, b;
     cout << "Enter First Number: ";
     cin >> a;
@@ -37,6 +38,16 @@ int main()
     cin >> b;
     int ans = lcm(a,b);
 
+
+    // Find the length or how many character in a string
     cout << "\nThe Lowest common Multiple of "<<a<<" and "<<b<<" is = "<< ans;
+
+    cout << "\n\n\n Lets Find the Number of Character";
+    string word = "";
+    cout << "\nEnter a Word: ";
+    cin >> word;
+
+    cout << "\n The total number of character in "<< word << " is: "<< word.length();
+
     return 0;
 }
